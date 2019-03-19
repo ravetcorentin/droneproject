@@ -1,0 +1,52 @@
+.section4 {
+    background: url(/assets/images/newspaper__section4.png);
+    background-size: cover;
+    height: 490px;
+    margin-top: 86px;
+
+    &__newsletter {
+        display: flex;
+        flex: wrap;
+        justify-content: center;
+    }
+
+    &__newslatterTitle {
+        color: #fff;
+        font-size: 48px;
+        font-family: 'proxima nova';
+        text-align: center;
+        padding-top: 160px;
+        margin-bottom: 49px;
+    }
+
+    &__newsletterButton {
+        position: absolute;
+        right: 40%;
+        height: 50px;
+        width: 134px;
+        line-height: 50px;
+        text-align: center;
+        color: orange;
+        font-size: 18px;
+        font-family: 'proxima nova';
+        border-radius: 50px;
+        background: #fff;
+        text-decoration: none;
+    }
+
+    &__email {
+        height: 46px;
+        width: 270px;
+        line-height: 50px;
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+        border: 1px solid grey;
+        background: none;
+        margin-left: -100px;
+    }
+
+    &__email::placeholder {
+        padding-left: 31px;
+        color: #fff;
+    }
+}

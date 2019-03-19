@@ -1,0 +1,46 @@
+.section1 {
+    background: #f6f6f6;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding-top: 120px;
+    }
+
+    &__containerIcons {
+        width: 260px;
+        text-align: center;
+    }
+
+    &__img {
+        height: 100px;
+        margin-bottom: 26px;
+    }
+
+    &__text {
+        font-size: 18px;
+        color: grey;
+    }
+
+    &__buttonContainer {
+        display: flex;
+        justify-content: center;
+        margin-top: 62px;
+    }
+
+    &__button {
+        width: 206px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50px;
+        background: #264699;
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+        text-decoration: none;
+        text-align: center;
+        margin-top: 104px;
+        margin-bottom: 100px;
+    }
+}

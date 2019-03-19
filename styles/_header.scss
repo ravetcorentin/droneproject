@@ -1,0 +1,105 @@
+.header {
+    background: url(/assets/images/back_header.png);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+
+    &__title {
+        font-size: 36px;
+        position: absolute;
+        top: 53px;
+        left: 170px;
+        color: #fff;
+        font-family: 'proxima nova';
+        font-weight: initial;
+    }
+
+    &__item {
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        width: 900Px;
+        right: 6%;
+        top: 3%;
+    }
+
+    &__link {
+        text-align: center;
+        font-size: 18px;
+        text-decoration: none;
+        color: #fff;
+        line-height: 30px;
+        border-radius: 50px;
+        margin-left: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+
+    }
+
+    &__link:hover {
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 15px;
+        border: 1px solid #000000;
+        color: orange;
+    }
+
+    &__slogan {
+        font-size: 48px;
+        color: #fff;
+        text-align: center;
+        font-family: 'proxima nova';
+        padding-top: 250px;
+    }
+
+    &__description {
+        font-size: 18px;
+        font-family: 'proxima nova';
+        text-align: center;
+        padding-top: 18px;
+        color: #fff;
+    }
+
+    &__containerButton {
+        display: flex;
+        justify-content: center;
+        margin-top: 62px;
+    }
+
+    &__button {
+        width: 206px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50px;
+        background: white;
+        color: orange;
+        font-size: 18px;
+        text-align: center;
+        text-decoration: none;
+        text-align: center;
+
+        &--video {
+            color: #fff;
+            border: 1px solid white;
+            background: none;
+            margin-left: 20px;
+        }
+    }
+
+    &__imgContainer {
+        position: absolute;
+        top: 90%;
+        right: 50%;
+        transform: translate(50%, -50%);
+    }
+}
+
+.container {
+    width: 1340px;
+    margin: 0 auto;
+}
